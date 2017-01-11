@@ -1,33 +1,34 @@
 package com.axelor.app;
 
-import java.util.ArrayList;
-
 public class Task {
 	
-	ArrayList<String> title = new ArrayList<>();
-	ArrayList<String> description = new ArrayList<>();
+	private String tname;
+	private String desc;
 	
 	public Task() {
+		
 	}
 	
 	public Task(String tname,String desc) {
-		title.add(tname);
-		description.add(desc);
+		this.tname = tname;
+		this.desc = desc;
 	}
 
-	public ArrayList<String> getTitle() {
-		return title;
+	public String getTname() {
+		return tname;
 	}
 
-	public void setTitle(ArrayList<String> title) {
-		this.title = title;
+	public void setTname(String tname) {
+		this.tname = tname;
 	}
 
-	public ArrayList<String> getDescription() {
-		return description;
+	public String getDesc() {
+		return desc;
 	}
 
-	public void setDescription(ArrayList<String> description) {
-		this.description = description;
+	public void setDesc(String desc) {
+		this.desc = desc;
 	}
+	
+	
 }

@@ -1,0 +1,12 @@
+2017-01-11 18:01:12,807 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - ==========================
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - Akshay
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - ==========================
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - Task List
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - ==========================
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - 1.JUnit
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team -   -Create one demo java Application for jUnit Testing
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - 2.Slf4j
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team -   -Create one demo java Application to make custom logging system
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - 3.Git
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team -   -Create single app, maintain different programs in different branch
+2017-01-11 18:01:12,845 [main] INFO usr=aga.axelor@gmail.com com.axelor.app.Team - 

@@ -1,25 +1,26 @@
 package com.axelor.app;
 
+import java.util.ArrayList;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Trainee {
 
+	Logger logger = LoggerFactory.getLogger(Team.class);
+	
 	private String name;
 	private String userName;
-	private Task tsk;
+
+	ArrayList<Task> list = new ArrayList<>();
 	
 	public Trainee(String name,String userName) {
 		this.name = name;
-		this.userName = userName;
-		tsk = new Task();
+		this.userName = userName+".axelor@gmail.com";
 	}
 	
 	public void assign(Task t) {
-		//tsk.setTname(t.getTname());
-		//tsk.setDesc(t.getDesc());
-		System.out.println(t.getTitle().size());
-		for(int i=1;i < t.getTitle().size();i++) {
-			tsk.setTitle(t.getTitle());
-			tsk.setDescription(t.getDescription());
-		}
+		list.add(t);
 	}
 
 	public String getName() {
@@ -38,11 +39,12 @@ public class Trainee {
 		this.userName = userName;
 	}
 
-	public Task getTsk() {
-		return tsk;
-	}
-
-	public void setTsk(Task tsk) {
-		this.tsk = tsk;
+	public void TaskDetails() {
+		int cnt=1;
+		for(int j=0;j < list.size();j++) {
+			logger.info(cnt+"."+list.get(j).getTname());
+			logger.info("  -"+list.get(j).getDesc());
+			cnt = cnt + 1;
+		}
 	}
 }
