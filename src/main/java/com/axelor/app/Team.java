@@ -7,6 +7,10 @@ public class Team {
 	}
 	
 	public void addMember(Trainee t) {
-		System.out.println(t);
+			
+	}
+	
+	public void logReports() {
+		
 	}
 }

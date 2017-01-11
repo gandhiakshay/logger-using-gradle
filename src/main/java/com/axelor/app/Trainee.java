@@ -2,8 +2,8 @@ package com.axelor.app;
 
 public class Trainee {
 
-	private String name;
-	private String uname;
+	public String name;
+	public String uname;
 	
 	public Trainee(String name,String uname) {
 		this.name = name;
@@ -12,6 +12,8 @@ public class Trainee {
 	
 	public void assign(Task t) {
 		System.out.println(name);
-		System.out.println(t);
+		System.out.println("=============");
+		System.out.println(t.tname);
+		System.out.println("   -"+t.desc);
 	}
 }
