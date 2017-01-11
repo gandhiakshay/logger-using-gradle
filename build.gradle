@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+mainClassName= 'com.axelor.app.TestMain'
+
+repositories {
+	mavenCentral()
+	mavenLocal()
+	jcenter()
+}
+
+dependencies {
+	compile "org.slf4j:slf4j-api:1.7.22"
+	compile "ch.qos.logback:logback-classic:1.0.9"
+	compile "ch.qos.logback:logback-core:1.0.9"
+	testCompile "junit:junit:4.12"
+}
+
